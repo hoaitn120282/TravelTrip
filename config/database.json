@@ -1,0 +1,47 @@
+{
+    "development": {
+        "username": "root",
+        "password": "Admin@123456!",
+        "database": "qs_starter",
+        "host": "127.0.0.1",
+        "dialect": "mysql",
+        "logging": true,
+        "freezeTableName": true,
+        "operatorsAliases": false,
+        "pool": {
+            "max": 5,
+            "min": 0,
+            "idle": 10000
+        }
+    },
+    "test": {
+        "username": "root",
+        "password": null,
+        "database": "database_test",
+        "host": "127.0.0.1",
+        "dialect": "mysql",
+        "logging": false,
+        "freezeTableName": true,
+        "operatorsAliases": false,
+        "pool": {
+            "max": 5,
+            "min": 0,
+            "idle": 10000
+        }
+    },
+    "production": {
+        "username": "root",
+        "password": "Admin@123456!",
+        "database": "qs_starter",
+        "host": "127.0.0.1",
+        "dialect": "mysql",
+        "logging": true,
+        "freezeTableName": true,
+        "operatorsAliases": false,
+        "pool": {
+            "max": 5,
+            "min": 0,
+            "idle": 10000
+        }
+    }
+}
